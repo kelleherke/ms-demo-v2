@@ -1,0 +1,6 @@
+version: '2'
+services:
+  simpleservice:
+      image: citadel/tmx-eureka-service:v2
+      ports:
+        - "8761:8761"
