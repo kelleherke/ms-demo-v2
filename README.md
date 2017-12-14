@@ -101,6 +101,12 @@ To see all build docker images
 Now we are going to use docker-compose to start the actual image. To start the docker image , change to the docker-compose/common directory. Issue the following docker-compose command.
 
     docker-compose -f docker-compose.yml up
+
+or individually
+    
+    docker-compose -f docker-compose.yml up eurekaserver
+    docker-compose -f docker-compose.yml up addressservice
+    docker-compose -f docker-compose.yml up pupilservice
     
 This command will start the  
 
